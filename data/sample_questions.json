@@ -1,0 +1,12 @@
+[
+ {"q":"What is the maximum process temperature in Revision C of the HX-200 manual?","answer":"120 deg C","source":"HX200_Pump_Manual_RevC.pdf"},
+ {"q":"What is the maximum process temperature in Revision B of the HX-200 manual?","answer":"90 deg C","source":"HX200_Pump_Manual_RevB.pdf"},
+ {"q":"Why did the seal on Pump P-204 fail in November 2024?","answer":"Operation at 105 deg C above the 90 deg C seal limit caused thermal cracking of carbon face","source":"P204_Failure_Report_2024-11.pdf"},
+ {"q":"Which change notice upgraded the P-204 seal?","answer":"ECN-0412","source":"ECN-0412_Seal_Upgrade.pdf"},
+ {"q":"What is the grease replacement interval for the pump bearing in the current manual revision?","answer":"3000 operating hours (Rev C)","source":"HX200_Pump_Manual_RevC.pdf"},
+ {"q":"Which procedure still references the 90 deg C limit?","answer":"MP-17 Revision A","source":"MP17_Seal_Replacement_RevA.pdf"},
+ {"q":"What is the yield strength of 6061-T6 at 100 deg C?","answer":"262 MPa","source":"Material_Properties_Aluminium_6061-T6.pdf"},
+ {"q":"How much does a 2 m aluminium bracket expand from 20 to 120 deg C?","answer":"4.72 mm","source":"Thermal_Expansion_Reference.pdf"},
+ {"q":"What is the vibration limit for acceptable long-term operation?","answer":"4.5 mm/s RMS","source":"Bearing_Vibration_Guide.pdf"},
+ {"q":"What is the pump's rated efficiency at 60 Hz?","answer":"INSUFFICIENT EVIDENCE","source":null}
+]

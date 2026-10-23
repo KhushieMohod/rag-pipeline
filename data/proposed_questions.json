@@ -1,0 +1,52 @@
+[
+  {
+    "q": "What maximum process temperatures are listed in manual Revisions B and C?",
+    "answer": "Revision B: 90 deg C; Revision C: 120 deg C",
+    "sources": ["HX200_Pump_Manual_RevB.pdf", "HX200_Pump_Manual_RevC.pdf"]
+  },
+  {
+    "q": "What process temperature change preceded the seal failures, and what seal upgrade and new limit did ECN-0412 prescribe?",
+    "answer": "The process temperature rose from 85 deg C to 105 deg C in January 2024; ECN-0412 prescribed silicon carbide vs silicon carbide faces and raised the maximum to 120 deg C.",
+    "sources": ["P204_Maintenance_History_2022-2025.pdf", "ECN-0412_Seal_Upgrade.pdf"]
+  },
+  {
+    "q": "At what leakage rate does the Revision C manual say to replace the seal faces?",
+    "answer": "More than 5 drops per minute",
+    "source": "HX200_Pump_Manual_RevC.pdf"
+  },
+  {
+    "q": "Which revision did ECN-0412 direct the MP-17 seal replacement procedure to be updated to?",
+    "answer": "Revision B",
+    "source": "ECN-0412_Seal_Upgrade.pdf"
+  },
+  {
+    "q": "What torque is specified for the MP-17 seal gland bolts?",
+    "answer": "25 Nm",
+    "source": "MP17_Seal_Replacement_RevA.pdf"
+  },
+  {
+    "q": "What maximum continuous temperature and pressure are listed for silicon carbide vs silicon carbide seal faces?",
+    "answer": "150 deg C and 25 bar",
+    "source": "Seal_Datasheet_Face_Materials.pdf"
+  },
+  {
+    "q": "What vibration velocity range is Zone B, considered acceptable for long-term operation?",
+    "answer": "2.8 to 4.5 mm/s RMS",
+    "source": "Bearing_Vibration_Guide.pdf"
+  },
+  {
+    "q": "What vibration reading was recorded during the October 2025 P-204 bearing inspection?",
+    "answer": "3.1 mm/s",
+    "source": "P204_Maintenance_History_2022-2025.pdf"
+  },
+  {
+    "q": "What is the rated electrical power of the HX-200 motor?",
+    "answer": "INSUFFICIENT EVIDENCE",
+    "source": null
+  },
+  {
+    "q": "What is the HX-200 impeller diameter?",
+    "answer": "INSUFFICIENT EVIDENCE",
+    "source": null
+  }
+]

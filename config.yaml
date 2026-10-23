@@ -1,0 +1,52 @@
+paths:
+  data_dir: data
+  parsed_file: outputs/parsed.jsonl
+  chunks_file: outputs/chunks.jsonl
+  index_dir: outputs/chroma
+  bm25_file: outputs/bm25.pkl
+  query_log: outputs/query_log.jsonl
+  eval_results: outputs/eval_results.csv
+  questions_file: data/sample_questions.json
+  proposed_questions_file: data/proposed_questions.json
+
+ingestion:
+  file_glob: "*.pdf"
+
+chunking:
+  chunk_size: 900
+  overlap: 150
+
+embedding:
+  model_name: BAAI/bge-small-en-v1.5
+
+vector_store:
+  collection_name: mini_crosscheck
+
+indexing:
+  embedding_batch_size: 32
+
+retrieval:
+  top_k: 5
+  mode: hybrid
+  rrf_k: 60
+  reranker_enabled: false
+  reranker_model: BAAI/bge-reranker-base
+
+generation:
+  abstention_threshold: 0.25
+  request_timeout_seconds: 120
+  temperature: 0.0
+  max_tokens: 512
+  llm_backend_env: MINI_CROSSCHECK_LLM_BACKEND
+  default_backend: ollama
+  ollama:
+    base_url: http://localhost:11434
+    model: llama3.2:latest
+  openai_compatible:
+    base_url_env: OPENAI_BASE_URL
+    api_key_env: OPENAI_API_KEY
+    model_env: OPENAI_MODEL
+    default_model: ""
+
+evaluation:
+  include_proposed_questions: true
